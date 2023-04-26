@@ -1,0 +1,223 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>team15 project</title>
+    <style>
+        body{
+            display: grid;
+            grid-template-columns: 1fr 2fr ;
+            grid-template-rows: 2fr 8fr 8fr 1fr;
+        }
+        nav {
+            position: relative;
+            background-color:#b46948;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 2;
+
+        }
+        #section1{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 10;
+        }
+        #section2{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 10;
+            grid-row-end: 18;
+        }
+        footer{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 18;
+            grid-row-end: 19;
+            background-color: #b46948;
+            color: white;
+        }
+ 
+        ul {
+            list-style: none;
+            display: inline;
+            padding-left: 140px;
+            float: none;
+        }
+        ul li {
+            line-height: 60px;
+            text-align: center;
+            position: relative;
+            float: left;
+            padding: 0 28px;
+            list-style-type: none;
+            
+           
+        }
+ 
+        a {
+            display: block;
+            text-decoration: none;
+            color: black;
+            display: block;
+            padding: 0 20px;
+            white-space: nowrap;
+            font-family:Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+ 
+        a:hover {
+            color: #FFF;
+            background-color: #ccc;
+        }
+ 
+        ul li ul li {
+            float: none;
+            margin-top: 2px;
+            background-color: #dcc9c1;
+            list-style-type: none;
+        }
+ 
+        ul li ul li a:hover {
+            color: #FFF;
+            background-color: #ccc;
+        }
+ 
+        ul li ul {
+            position: absolute;
+            right: auto;
+            top: 60px;
+            display: none;
+            padding-left: 0;
+        }
+       
+        ul li:hover ul {
+            display: block;
+        }
+        #section1{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr ;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            color: #b46948;
+            text-align: center; 
+            font-size: 5em;
+        }
+        #section1 a {
+            color: brown;
+        }
+        #section2{
+            display: grid;
+            text-align: center;
+            font-size: 5em;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <table>
+        <div style="text-align: center; width: 100%; font-size: 20px;">
+            <ul >
+                <li><img src="rili.png" width="100px" height="100px"></li>
+                <li  style="font-size: 50px;">24절기와 생활</li>
+                <li> &nbsp;</li>
+                <li> &nbsp;</li>
+                <li> &nbsp;</li>
+                <li> &nbsp;</li>
+                <li><a href="#">홈</a></li>
+                <li><a href="#">24절기계</a>
+                    <ul>
+                        <li><a href="#">양자의 관계</a></li>
+                        <li><a href="#">절기와 관련된 내용</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">일력</a>
+                    <ul>
+                        <li><a href="#">음력</a></li>
+                        <li><a href="#">양력</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">십이지와 역법</a>
+                    <ul>
+                        <li><a href="#">십이지</a></li>
+                        <li><a href="#">양자의 관계</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">about</a>
+                    <ul>
+                        <li><a href="#">introduction</a></li>
+                        <li><a href="#">more imformation</a></li>
+                        <li><a href="#">chat</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </table>
+    </nav>
+    <section id="section1" name = "calendar">
+        <div><a href="#chun">봄（春）</a></div>
+        <div><a href="#xia">여름（夏）</a></div>
+        <div><a href="#qiu">가을（秋）</a></div>
+        <div><a href="#dong">겨울（冬）</a></div>
+        <div><a href="1">1입춘（立春）</a></div>
+        <div><a href="1">7입하（立夏）</a></div>
+        <div><a href="1">13입추（立秋）</a></div>
+        <div><a href="1">19입동（立冬）</a></div>
+        <div><a href="1">2우수（雨水）</a></div>
+        <div><a href="1">8소만（小满）</a></div>
+        <div><a href="1">14처서（处暑）</a></div>
+        <div><a href="1">20소설（小雪）</a></div>
+        <div><a href="1">3경칩（惊蛰）</a></div>
+        <div><a href="1">9망종（芒种）</a></div>
+        <div><a href="1">15배로(白露)</a></div>
+        <div><a href="1">21대설（大雪）</a></div>
+        <div><a href="1">4춘분（春分）</a></div>
+        <div><a href="1">10하지（夏至）</a></div>
+        <div><a href="1">10하지（夏至）</a></div>
+        <div><a href="1">22동지（冬至）</a></div>
+        <div><a href="1">5청명（清明）</a></div>
+        <div><a href="1">11소서（小暑）</a></div>
+        <div><a href="1">17한로（寒露）</a></div>
+        <div><a href="1">23소한（小寒）</a></div>
+        <div><a href="1">6곡우（谷雨）</a></div>
+        <div><a href="1">12대서（大雪）</a></div>
+        <div><a href="1">18상강（霜降）</a></div>
+        <div><a href="1">24대한(大寒)</a></div>
+    </section>
+    <section id="section2" >
+        <p id="chun">봄（春）</p>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <p id="xia">여름（夏）</p>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <p id="qiu">가을（秋）</p>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <p id="dong">겨울（冬）</p>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </section>
+    <footer>
+        <p style="text-align: center;">Copyright © 2023 teamwork for webprograming</p>
+    </footer>
+</body>
+</html>
