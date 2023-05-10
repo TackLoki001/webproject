@@ -5,120 +5,14 @@
     <meta charset="UTF-8">
     <title>team15 project</title>
     <style>
-        body{
-            display: grid;
-            grid-template-columns: 1fr 2fr ;
-            grid-template-rows: 2fr 8fr 8fr 1fr;
-        }
-        nav {
-            position: relative;
-            background-color:#b46948;
-            grid-column-start: 1;
-            grid-column-end: 3;
-            grid-row-start: 1;
-            grid-row-end: 2;
-
-        }
-        #section1{
-            grid-column-start: 1;
-            grid-column-end: 3;
-            grid-row-start: 2;
-            grid-row-end: 10;
-        }
-        #section2{
-            grid-column-start: 1;
-            grid-column-end: 3;
-            grid-row-start: 10;
-            grid-row-end: 18;
-        }
-        footer{
-            grid-column-start: 1;
-            grid-column-end: 3;
-            grid-row-start: 18;
-            grid-row-end: 19;
-            background-color: #b46948;
-            color: white;
-        }
- 
-        ul {
-            list-style: none;
-            display: inline;
-            padding-left: 140px;
-            float: none;
-        }
-        ul li {
-            line-height: 60px;
-            text-align: center;
-            position: relative;
-            float: left;
-            padding: 0 28px;
-            list-style-type: none;
-            
-           
-        }
- 
-        a {
-            display: block;
-            text-decoration: none;
-            color: black;
-            display: block;
-            padding: 0 20px;
-            white-space: nowrap;
-            font-family:Arial, Helvetica, sans-serif;
-            font-weight: bold;
-        }
- 
-        a:hover {
-            color: #FFF;
-            background-color: #ccc;
-        }
- 
-        ul li ul li {
-            float: none;
-            margin-top: 2px;
-            background-color: #dcc9c1;
-            list-style-type: none;
-        }
- 
-        ul li ul li a:hover {
-            color: #FFF;
-            background-color: #ccc;
-        }
- 
-        ul li ul {
-            position: absolute;
-            right: auto;
-            top: 60px;
-            display: none;
-            padding-left: 0;
-        }
-       
-        ul li:hover ul {
-            display: block;
-        }
-        #section1{
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr ;
-            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-            color: #b46948;
-            text-align: center; 
-            font-size: 5em;
-        }
-        #section1 a {
-            color: brown;
-        }
-        #section2{
-            display: grid;
-            text-align: center;
-            font-size: 5em;
-        }
-        
+        @import url(style.css);
     </style>
+    <script src="backtoup.js"></script>
 </head>
 <body>
     <nav>
         <table>
-        <div style="text-align: center; width: 100%; font-size: 20px;">
+        <div style="width: 100%; font-size: 20px;">
             <ul >
                 <li><img src="rili.png" width="100px" height="100px"></li>
                 <li  style="font-size: 50px;">24절기와 생활</li>
@@ -161,63 +55,66 @@
         <div><a href="#xia">여름（夏）</a></div>
         <div><a href="#qiu">가을（秋）</a></div>
         <div><a href="#dong">겨울（冬）</a></div>
-        <div><a href="1">1입춘（立春）</a></div>
-        <div><a href="1">7입하（立夏）</a></div>
-        <div><a href="1">13입추（立秋）</a></div>
-        <div><a href="1">19입동（立冬）</a></div>
-        <div><a href="1">2우수（雨水）</a></div>
-        <div><a href="1">8소만（小满）</a></div>
-        <div><a href="1">14처서（处暑）</a></div>
-        <div><a href="1">20소설（小雪）</a></div>
-        <div><a href="1">3경칩（惊蛰）</a></div>
-        <div><a href="1">9망종（芒种）</a></div>
-        <div><a href="1">15배로(白露)</a></div>
-        <div><a href="1">21대설（大雪）</a></div>
-        <div><a href="1">4춘분（春分）</a></div>
-        <div><a href="1">10하지（夏至）</a></div>
-        <div><a href="1">10하지（夏至）</a></div>
-        <div><a href="1">22동지（冬至）</a></div>
-        <div><a href="1">5청명（清明）</a></div>
-        <div><a href="1">11소서（小暑）</a></div>
-        <div><a href="1">17한로（寒露）</a></div>
-        <div><a href="1">23소한（小寒）</a></div>
-        <div><a href="1">6곡우（谷雨）</a></div>
-        <div><a href="1">12대서（大雪）</a></div>
-        <div><a href="1">18상강（霜降）</a></div>
-        <div><a href="1">24대한(大寒)</a></div>
+        <div><a href="#1">1입춘（立春）<p>2023/02/04 10:42:21 - 2023/02/19 06:34:05</p></a></div>
+        <div><a href="#7">7입하（立夏）<p>2023/05/06/ 02:18:34 - 2023/05/21 15:08:59</p></a></div>
+        <div><a href="#13">13입추（立秋）<p>2023/08/08 02:22:41 - 2023/08/23 17:01:06</p></a></div>
+        <div><a href="#19">19입동（立冬）<p>2023/11/08 00:35:23 - 2023/11/22 22:02:29</p></a></div>
+        <div><a href="#2">2우수（雨水）<p>2023/02/19 06:34:05 - 2023/03/06 04:36:02</p></a></div>
+        <div><a href="#8">8소만（小满）<p>2023/05/21 15:08:59 - 2023/06/06 06:18:10</p></a></div>
+        <div><a href="#14">14처서（处暑）<p>2023/08/23 17:01:06 - 2023/09/08 05:26:31</p></a></div>
+        <div><a href="#20">20소설（小雪）<p>2023/11/22 22:02:29 - 2023/12/07 17:32:44</p></a></div>
+        <div><a href="#3">3경칩（惊蛰）<p>2023/03/06 04:36:02 - 2023/03/21 05:24:14</p></a></div>
+        <div><a href="#9">9망종（芒种）<p>2023/06/06 06:18:10 - 2023/06/21 22:57:37</p></a></div>
+        <div><a href="#15">15배로(白露) <p>2023/09/08 05:26:31 - 2023/09/23 14:49:46</p></a></div>
+        <div><a href="#21">21대설（大雪）<p>2023/09/08 05:26:31 - 2023/09/23 14:49:46</p></a></div>
+        <div><a href="#4">4춘분（春分）<p>2023/03/21 05:24:14 - 2023/04/05 09:12:52</p></a></div>
+        <div><a href="#10">10하지（夏至）<p>2023/06/21 22:57:37 - 2023/07/07 16:30:29</p></a></div>
+        <div><a href="#16">16추분（秋分）<p>2023/09/23 14:49:46 - 2023/10/08 21:15:23</p></a></div>
+        <div><a href="#22">22동지（冬至）<p>2023/12/22 11:27:09 - 2024/01/06 04:49:09</p></a></div>
+        <div><a href="#5">5청명（清明）<p>2023/04/05 09:12:52 - 2023/04/20 16:13:26</p></a></div>
+        <div><a href="#11">11소서（小暑）<p>2023/07/07 16:30:29 - 2023/07/23 09:50:15</p></a></div>
+        <div><a href="#17">17한로（寒露）<p>2023/10/08 21:15:23 - 2023/10/24 00:20:39</p></a></div>
+        <div><a href="#23">23소한（小寒）<p>2023/10/08 21:15:23 - 2023/10/24 00:20:39</p></a></div>
+        <div><a href="#6">6곡우（谷雨）<p>2023/04/20 16:13:26 -2023/05/06 02:18:34</p></a></div>
+        <div><a href="#12">12대서（大暑）<p>2023/10/24 00:20:39 - 2023/11/08 00:35:23</p></a></div>
+        <div><a href="#18">18상강（霜降）<p>2023/10/24 00:20:39 - 2023/11/08 00:35:23</p></a></div>
+        <div><a href="#24">24대한(大寒)<p>2024/01/20 22:07:08 -2024/02/04 16:26:53
+            </p></a></div>
+
     </section>
     <section id="section2" >
         <p id="chun">봄（春）</p>
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-        <div>5</div>
-        <div>6</div>
+        <div id="1">1</div>
+        <div id="2">2</div>
+        <div id="3">3</div>
+        <div id="4">4</div>
+        <div id="5">5</div>
+        <div id="6">6</div>
         <p id="xia">여름（夏）</p>
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-        <div>5</div>
-        <div>6</div>
+        <div id="7">1</div>
+        <div id="8">2</div>
+        <div id="9">3</div>
+        <div id="10">4</div>
+        <div id="11">5</div>
+        <div id="12">6</div>
         <p id="qiu">가을（秋）</p>
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-        <div>5</div>
-        <div>6</div>
+        <div id="13">1</div>
+        <div id="14">2</div>
+        <div id="15">3</div>
+        <div id="16">4</div>
+        <div id="17">5</div>
+        <div id="18">6</div>
         <p id="dong">겨울（冬）</p>
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-        <div>5</div>
-        <div>6</div>
+        <div id="19">1</div>
+        <div id="20">2</div>
+        <div id="21">3</div>
+        <div id="22">4</div>
+        <div id="23">5</div>
+        <div id="24">6</div>
     </section>
+    <a href="#" id="back-to-top">backtotop</a>
     <footer>
-        <p style="text-align: center;">Copyright © 2023 teamwork for webprograming</p>
+        <p>Copyright © 2023 teamwork for webprograming</p>
     </footer>
 </body>
 </html>
