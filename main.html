@@ -8,10 +8,22 @@
         @import url(style.css);
     </style>
     <script src="backtoup.js"></script>
+    <script src="login.js"></script>
+	
+	
 </head>
 <body>
+  <div id="inputPanel">
+    <input type="text" id="inputField1" placeholder="ID:">
+    <input type="text" id="inputField2" placeholder="PW:"><br>
+    
+    <button onclick="processInput()">확인</button>
+    <button onclick="hidePanel()">취소</button>
+  </div>
+
     <nav>
         <table>
+	<a href="#" id="back-to-top">back<br>to<br>top</a>
         <div style="width: 100%; font-size: 20px;">
             <ul >
                 <li><img src="rili.png" width="100px" height="100px"></li>
@@ -48,6 +60,9 @@
                         <li><a href="#">more imformation</a></li>
                         <li><a href="#">chat</a></li>
                     </ul>
+                </li>
+		<li><button onclick="showPanel()">login</button>
+
                 </li>
             </ul>
         </div>
@@ -133,7 +148,6 @@
         <div id="23">소한(小寒)<br>은 24절기 중 하나이다. 양력 1월 5일경으로, 이 때의 태양 황경은 285도이다. 23번째 절기이며, 한 해에서는 맨 처음에 오는 절기이다.</div>
         <div id="24">대한(大寒)<br>은 24절기 중 하나이다. 양력 1월 20일경으로, 24절기의 마지막 절기[1]이며 이 때의 태양 황경은 300도이다. 대한민국에서는 소한 다음으로 가장 매서운 한파가 오는 시기로, 이 때 농가에서는 입춘 전까지 혹한에 대비해 만반의 준비를 하는 풍습이 있다.</div>
     </section>
-    <a href="#" id="back-to-top">backtotop</a>
     <footer>
         <p>Copyright © 2023 teamwork for webprograming</p>
     </footer>
